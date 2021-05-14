@@ -1,12 +1,8 @@
-"""
-The following is a primitive implementation of middle squared method of generating random number.
-Proposed by Von Neumann.
-
-Fairly decent algorithm for numbers with larger number of digits.
-A serious disadvantage is that if it ever generates zero, further every other generated number will also be zero.
-
-"""
-
+# Simple implementation of middle squared algorithm to generate random numbers
+# Works for fixed number of digits
+# Better results if digit count is high
+# Proposed by Jon Von Neumann
+# Disadvantage: If it ever generates 0, following values will also be 0.
 
 
 
